@@ -32,3 +32,4 @@ class DB:
 
 
 DB('testbot', 'postgres', '1111', 'localhost').create()
+ ###

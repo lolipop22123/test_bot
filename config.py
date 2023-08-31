@@ -11,3 +11,4 @@ storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
 
 db = DB('testbot', 'postgres', '1111', 'localhost')
+ ###

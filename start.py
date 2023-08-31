@@ -9,4 +9,4 @@ async def start_cmd(m:types.Message):
 
     db.add_user(m.from_user.id, m.from_user.username)
 
-    
+    ###

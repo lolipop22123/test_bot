@@ -67,3 +67,5 @@ async def buy_product(call: types.CallbackQuery):
 
     else:
         await call.message.answer("Нет доступных товаров")
+    
+     ###

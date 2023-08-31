@@ -1,7 +1,7 @@
 import psycopg2
 import os
 import pickle
-
+ ###
 class DB:
     def __init__(self, dbname, user, password, host):
         self.connection = psycopg2.connect(dbname=dbname, user=user, password=password, host=host, sslmode='disable')
